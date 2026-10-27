@@ -1,0 +1,58 @@
+name: Migrate legacy models-v1
+on:
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  migrate:
+    runs-on: ubuntu-latest
+    env:
+      GH_TOKEN: ${{ github.token }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Ensure the immutable version does not already exist
+        run: |
+          if gh api "repos/$GITHUB_REPOSITORY/releases/tags/models-v1" >/dev/null 2>&1; then
+            echo 'models-v1 already exists; refusing to replace it' >&2
+            exit 1
+          fi
+      - name: Download the original assets
+        run: |
+          mkdir -p build/legacy
+          gh release download v1.0.3 --repo SteveTanSaMa/Waifu2x-Desktop \
+            --pattern SHA256SUMS --pattern 'Waifu2x-model*.tar.xz' \
+            --pattern Waifu2x-models-v1-repair.json --dir build/legacy
+      - name: Validate and stage models
+        run: |
+          python3 -m unittest discover -s tests -v
+          python3 script/import_legacy.py --source build/legacy
+          (cd dist && sha256sum --check SHA256SUMS)
+      - name: Create draft and upload assets
+        run: |
+          gh release create models-v1 --repo "$GITHUB_REPOSITORY" --target "$GITHUB_SHA" \
+            --draft --title 'Models v1' --notes 'Verified model resources for Waifu2x Desktop. See the repository README for provenance and licenses.'
+          gh release upload models-v1 --repo "$GITHUB_REPOSITORY" dist/*
+      - name: Verify uploaded asset digests before publishing
+        run: |
+          gh release view models-v1 --repo "$GITHUB_REPOSITORY" --json isDraft,assets > build/uploaded.json
+          python3 - <<'PY'
+          import hashlib, json
+          from pathlib import Path
+          release = json.loads(Path('build/uploaded.json').read_text())
+          if not release['isDraft']:
+              raise SystemExit('Expected draft release')
+          actual = {a['name']: a for a in release['assets']}
+          paths = list(Path('dist').iterdir())
+          if set(actual) != {p.name for p in paths}:
+              raise SystemExit('Uploaded asset list differs')
+          for path in paths:
+              digest = hashlib.file_digest(path.open('rb'), 'sha256').hexdigest()
+              asset = actual[path.name]
+              if asset['state'] != 'uploaded' or asset['size'] != path.stat().st_size or asset['digest'] != 'sha256:' + digest:
+                  raise SystemExit(f'Uploaded asset mismatch: {path.name}')
+          print(f'Verified {len(paths)} uploaded assets')
+          PY
+          gh release edit models-v1 --repo "$GITHUB_REPOSITORY" --draft=false

@@ -1,0 +1,607 @@
+{
+  "schemaVersion": 3,
+  "catalogVersion": "models-v1",
+  "archive": {
+    "path": "Waifu2x-models-v1.tar.xz",
+    "bytes": 839373332,
+    "sha256": "399a08474a8c6f0f191f863f60b24def10c6b96eb4c9610eadf5a2b351d68253",
+    "sourceURL": "https://github.com/SteveTanSaMa/Waifu2x-Desktop-Models/releases/download/models-v1/Waifu2x-models-v1.tar.xz"
+  },
+  "files": [
+    {
+      "path": "ONNXModels/swin_unet_v3/art/scale1x.onnx",
+      "bytes": 2615,
+      "sha256": "0de61510c42850192ad99c4ca0cb6651b237d4538a26e5b78464926f677f06d9",
+      "sourceURL": "https://unlimited.waifu2x.net/models/swin_unet_v3/art/scale1x.onnx"
+    },
+    {
+      "path": "ONNXModels/swin_unet_v3/art/noise0.onnx",
+      "bytes": 15108009,
+      "sha256": "ed200e2be700d6c8f893e19c58a4c71baf13a5965938960d2dcf095926755253",
+      "sourceURL": "https://unlimited.waifu2x.net/models/swin_unet_v3/art/noise0.onnx"
+    },
+    {
+      "path": "ONNXModels/swin_unet_v3/art/noise1.onnx",
+      "bytes": 15108009,
+      "sha256": "ef3a0dc77bf608c706bcf0412bd834519f2003be1a5eb47bc1849b55548b4cb5",
+      "sourceURL": "https://unlimited.waifu2x.net/models/swin_unet_v3/art/noise1.onnx"
+    },
+    {
+      "path": "ONNXModels/swin_unet_v3/art/noise2.onnx",
+      "bytes": 15108009,
+      "sha256": "b278aeaca3846a3aaa9174652f7952d5cf7361d72440e20047bb0d49afdd3b35",
+      "sourceURL": "https://unlimited.waifu2x.net/models/swin_unet_v3/art/noise2.onnx"
+    },
+    {
+      "path": "ONNXModels/swin_unet_v3/art/noise3.onnx",
+      "bytes": 15108009,
+      "sha256": "c9b7d4c24fac45e7185a08fa2a56e7d1d5a8a2c26c5570382d1437ff9b1839c5",
+      "sourceURL": "https://unlimited.waifu2x.net/models/swin_unet_v3/art/noise3.onnx"
+    },
+    {
+      "path": "ONNXModels/swin_unet_v3/art/scale2x.onnx",
+      "bytes": 16554788,
+      "sha256": "faa388da0c0acae10840938284b9f0f0228013036e130c816782e1c20c468f6b",
+      "sourceURL": "https://unlimited.waifu2x.net/models/swin_unet_v3/art/scale2x.onnx"
+    },
+    {
+      "path": "ONNXModels/swin_unet_v3/art/noise0_scale2x.onnx",
+      "bytes": 16554741,
+      "sha256": "8ebf25acfd6c1602f06f09ba3005b5dbff84df9c66d4f4e93dd0d8db6eb9504c",
+      "sourceURL": "https://unlimited.waifu2x.net/models/swin_unet_v3/art/noise0_scale2x.onnx"
+    },
+    {
+      "path": "ONNXModels/swin_unet_v3/art/noise1_scale2x.onnx",
+      "bytes": 16554741,
+      "sha256": "3b8ffb1202e29fa435637e07565a8da04ae579e16aa8ab5d29bcee6a47cc9c25",
+      "sourceURL": "https://unlimited.waifu2x.net/models/swin_unet_v3/art/noise1_scale2x.onnx"
+    },
+    {
+      "path": "ONNXModels/swin_unet_v3/art/noise2_scale2x.onnx",
+      "bytes": 16554741,
+      "sha256": "c500ca835c836a20b94834fa025b8baec2db28e34f57f0b6eaee939b23386ceb",
+      "sourceURL": "https://unlimited.waifu2x.net/models/swin_unet_v3/art/noise2_scale2x.onnx"
+    },
+    {
+      "path": "ONNXModels/swin_unet_v3/art/noise3_scale2x.onnx",
+      "bytes": 16554788,
+      "sha256": "0c15d001198519dad6741a5568baada9ecfa6180ba46c00a8f6070145c5ec07a",
+      "sourceURL": "https://unlimited.waifu2x.net/models/swin_unet_v3/art/noise3_scale2x.onnx"
+    },
+    {
+      "path": "ONNXModels/swin_unet/art/scale1x.onnx",
+      "bytes": 2615,
+      "sha256": "0de61510c42850192ad99c4ca0cb6651b237d4538a26e5b78464926f677f06d9",
+      "sourceURL": "https://unlimited.waifu2x.net/models/swin_unet/art/scale1x.onnx"
+    },
+    {
+      "path": "ONNXModels/swin_unet/art/noise0.onnx",
+      "bytes": 19061417,
+      "sha256": "defc1c74acded61cf6bf4bf435611374ba6caaaf9d012ac9eb68faf3e4f35b1d",
+      "sourceURL": "https://unlimited.waifu2x.net/models/swin_unet/art/noise0.onnx"
+    },
+    {
+      "path": "ONNXModels/swin_unet/art/noise1.onnx",
+      "bytes": 19061417,
+      "sha256": "efbd5ffaded3d0925f3814402b83b26a312bf4ae310955291bb425b83a1872d5",
+      "sourceURL": "https://unlimited.waifu2x.net/models/swin_unet/art/noise1.onnx"
+    },
+    {
+      "path": "ONNXModels/swin_unet/art/noise2.onnx",
+      "bytes": 19061417,
+      "sha256": "73bcf6375bae3d48848957e547dad47960bb08a0bb16e4d9639acccc719b70b1",
+      "sourceURL": "https://unlimited.waifu2x.net/models/swin_unet/art/noise2.onnx"
+    },
+    {
+      "path": "ONNXModels/swin_unet/art/noise3.onnx",
+      "bytes": 19061417,
+      "sha256": "075952d0ec954b6f2046b9084f976eee064a5021dd8cf2c810ee556bad4afd9c",
+      "sourceURL": "https://unlimited.waifu2x.net/models/swin_unet/art/noise3.onnx"
+    },
+    {
+      "path": "ONNXModels/swin_unet/art/scale2x.onnx",
+      "bytes": 19072763,
+      "sha256": "f5de9edfbc4ef273c962502ccd949e6d4e3b2a93db2c2f9cba5c795d19554342",
+      "sourceURL": "https://unlimited.waifu2x.net/models/swin_unet/art/scale2x.onnx"
+    },
+    {
+      "path": "ONNXModels/swin_unet/art/noise0_scale2x.onnx",
+      "bytes": 19072763,
+      "sha256": "186ac669573c326f07b74fe33c904e0f7e002f0f8bbc5b7d04971f1312536f56",
+      "sourceURL": "https://unlimited.waifu2x.net/models/swin_unet/art/noise0_scale2x.onnx"
+    },
+    {
+      "path": "ONNXModels/swin_unet/art/noise1_scale2x.onnx",
+      "bytes": 19072763,
+      "sha256": "ac5d366c5ca73c58c40a0ecd7199298521867c9d374a27d57a4bd67a241c4885",
+      "sourceURL": "https://unlimited.waifu2x.net/models/swin_unet/art/noise1_scale2x.onnx"
+    },
+    {
+      "path": "ONNXModels/swin_unet/art/noise2_scale2x.onnx",
+      "bytes": 19072763,
+      "sha256": "42b43952b196eeb6962cdfa7d6c585f20c21b87bfa007c8ed657a8cff3f6cd23",
+      "sourceURL": "https://unlimited.waifu2x.net/models/swin_unet/art/noise2_scale2x.onnx"
+    },
+    {
+      "path": "ONNXModels/swin_unet/art/noise3_scale2x.onnx",
+      "bytes": 19072763,
+      "sha256": "e52d51c0361402d4b9fd5e01ad9f14650983f5996b2670485c5beed7985c22fd",
+      "sourceURL": "https://unlimited.waifu2x.net/models/swin_unet/art/noise3_scale2x.onnx"
+    },
+    {
+      "path": "ONNXModels/swin_unet/art/scale4x.onnx",
+      "bytes": 21253884,
+      "sha256": "897e13e46c2637353abfdbddc52d77a29f26e3fe6d280edb380fc058a0f78f4f",
+      "sourceURL": "https://unlimited.waifu2x.net/models/swin_unet/art/scale4x.onnx"
+    },
+    {
+      "path": "ONNXModels/swin_unet/art/noise0_scale4x.onnx",
+      "bytes": 21253884,
+      "sha256": "939d6c4cb5cf59debc52189748d9a4e59af6d39fec6d5eb9f83b55350feedd47",
+      "sourceURL": "https://unlimited.waifu2x.net/models/swin_unet/art/noise0_scale4x.onnx"
+    },
+    {
+      "path": "ONNXModels/swin_unet/art/noise1_scale4x.onnx",
+      "bytes": 21253884,
+      "sha256": "df680faf2fdf0d46927bd5ae6b89e774869fc4969569adc7874af19e11125c55",
+      "sourceURL": "https://unlimited.waifu2x.net/models/swin_unet/art/noise1_scale4x.onnx"
+    },
+    {
+      "path": "ONNXModels/swin_unet/art/noise2_scale4x.onnx",
+      "bytes": 21253884,
+      "sha256": "380ea6c7f907f3ddc54489e6b20effd4c8cbf2eff4ea5951e9028362372f04ad",
+      "sourceURL": "https://unlimited.waifu2x.net/models/swin_unet/art/noise2_scale4x.onnx"
+    },
+    {
+      "path": "ONNXModels/swin_unet/art/noise3_scale4x.onnx",
+      "bytes": 21253884,
+      "sha256": "ec057c6afeaf71c210732448e388911ccd098e8d74ab317254bf93ab48357350",
+      "sourceURL": "https://unlimited.waifu2x.net/models/swin_unet/art/noise3_scale4x.onnx"
+    },
+    {
+      "path": "ONNXModels/swin_unet/art_scan/scale1x.onnx",
+      "bytes": 2615,
+      "sha256": "0de61510c42850192ad99c4ca0cb6651b237d4538a26e5b78464926f677f06d9",
+      "sourceURL": "https://unlimited.waifu2x.net/models/swin_unet/art_scan/scale1x.onnx"
+    },
+    {
+      "path": "ONNXModels/swin_unet/art_scan/noise0.onnx",
+      "bytes": 21302686,
+      "sha256": "066d5dc1b12d4acc91c881e27142bd54b080bbceb46c67bac0f4940195c3d204",
+      "sourceURL": "https://unlimited.waifu2x.net/models/swin_unet/art_scan/noise0.onnx"
+    },
+    {
+      "path": "ONNXModels/swin_unet/art_scan/noise1.onnx",
+      "bytes": 21302686,
+      "sha256": "979e5f609d62bbf61102a7ecf669f8105d466f941bac8126e01673adb65d8c74",
+      "sourceURL": "https://unlimited.waifu2x.net/models/swin_unet/art_scan/noise1.onnx"
+    },
+    {
+      "path": "ONNXModels/swin_unet/art_scan/noise2.onnx",
+      "bytes": 21302686,
+      "sha256": "b2966fb8503512f1d151a567f9f5a87f6e3ab24d389e103636d5fd18bc7e2f41",
+      "sourceURL": "https://unlimited.waifu2x.net/models/swin_unet/art_scan/noise2.onnx"
+    },
+    {
+      "path": "ONNXModels/swin_unet/art_scan/noise3.onnx",
+      "bytes": 21302686,
+      "sha256": "eb1069f4df8ea9128829d646c921a92090a559c2aa409b3f79158771dd06dcbf",
+      "sourceURL": "https://unlimited.waifu2x.net/models/swin_unet/art_scan/noise3.onnx"
+    },
+    {
+      "path": "ONNXModels/swin_unet/art_scan/scale2x.onnx",
+      "bytes": 21292630,
+      "sha256": "700dd879bafdf70e3c220f94f60273b69cd41648b2d3dd98bba6dd9abf344167",
+      "sourceURL": "https://unlimited.waifu2x.net/models/swin_unet/art_scan/scale2x.onnx"
+    },
+    {
+      "path": "ONNXModels/swin_unet/art_scan/noise0_scale2x.onnx",
+      "bytes": 21292630,
+      "sha256": "beca33140386b511f83a032cea685a6bfcffc3f121dad7bac33eb693fd689b6d",
+      "sourceURL": "https://unlimited.waifu2x.net/models/swin_unet/art_scan/noise0_scale2x.onnx"
+    },
+    {
+      "path": "ONNXModels/swin_unet/art_scan/noise1_scale2x.onnx",
+      "bytes": 21292630,
+      "sha256": "e79b27ae4988f39869a68bb2332bc3768a4933e32891c7b8b3997f0012c10bc5",
+      "sourceURL": "https://unlimited.waifu2x.net/models/swin_unet/art_scan/noise1_scale2x.onnx"
+    },
+    {
+      "path": "ONNXModels/swin_unet/art_scan/noise2_scale2x.onnx",
+      "bytes": 21292630,
+      "sha256": "e24ea77f48a45605b21dde4ba6ce41341315f41dbf33a66868217cb219907d3c",
+      "sourceURL": "https://unlimited.waifu2x.net/models/swin_unet/art_scan/noise2_scale2x.onnx"
+    },
+    {
+      "path": "ONNXModels/swin_unet/art_scan/noise3_scale2x.onnx",
+      "bytes": 21292630,
+      "sha256": "c36b5c7d4e66e4fbf52956489b944d4dbadbce9e18c0e8e30153e36e62c87b23",
+      "sourceURL": "https://unlimited.waifu2x.net/models/swin_unet/art_scan/noise3_scale2x.onnx"
+    },
+    {
+      "path": "ONNXModels/swin_unet/art_scan/scale4x.onnx",
+      "bytes": 21253884,
+      "sha256": "9b0e1051b516d3dbf6164c2f7db0e8fde29676bc567488dac864bd2c0ebff928",
+      "sourceURL": "https://unlimited.waifu2x.net/models/swin_unet/art_scan/scale4x.onnx"
+    },
+    {
+      "path": "ONNXModels/swin_unet/art_scan/noise0_scale4x.onnx",
+      "bytes": 21253884,
+      "sha256": "a04d069e41e38eb321f71da4e0cb906c391b8ec2dfcb4e96feeaaa42e0cd8980",
+      "sourceURL": "https://unlimited.waifu2x.net/models/swin_unet/art_scan/noise0_scale4x.onnx"
+    },
+    {
+      "path": "ONNXModels/swin_unet/art_scan/noise1_scale4x.onnx",
+      "bytes": 21253884,
+      "sha256": "1b06034821f389f5e4ed5a7014f89bb36a10e2f4bcaa3f5f82ad3a15da4c89eb",
+      "sourceURL": "https://unlimited.waifu2x.net/models/swin_unet/art_scan/noise1_scale4x.onnx"
+    },
+    {
+      "path": "ONNXModels/swin_unet/art_scan/noise2_scale4x.onnx",
+      "bytes": 21253884,
+      "sha256": "039e5013c580a9aa179e0754cff32ab70118d41a8f2a2cc80952908a53ec2316",
+      "sourceURL": "https://unlimited.waifu2x.net/models/swin_unet/art_scan/noise2_scale4x.onnx"
+    },
+    {
+      "path": "ONNXModels/swin_unet/art_scan/noise3_scale4x.onnx",
+      "bytes": 21253884,
+      "sha256": "253939deb28a9c1d266d3b6d37cc1c4b0710ab02af747b4c34330d67c04a68c2",
+      "sourceURL": "https://unlimited.waifu2x.net/models/swin_unet/art_scan/noise3_scale4x.onnx"
+    },
+    {
+      "path": "ONNXModels/swin_unet/photo/scale1x.onnx",
+      "bytes": 2615,
+      "sha256": "0de61510c42850192ad99c4ca0cb6651b237d4538a26e5b78464926f677f06d9",
+      "sourceURL": "https://unlimited.waifu2x.net/models/swin_unet/photo/scale1x.onnx"
+    },
+    {
+      "path": "ONNXModels/swin_unet/photo/noise0.onnx",
+      "bytes": 21302686,
+      "sha256": "42eaaa6a5e838e4768cb2758bfc004503c90c14bdc29c50f1df49311a42a3ec8",
+      "sourceURL": "https://unlimited.waifu2x.net/models/swin_unet/photo/noise0.onnx"
+    },
+    {
+      "path": "ONNXModels/swin_unet/photo/noise1.onnx",
+      "bytes": 21302686,
+      "sha256": "39da68efa4fbd6fd0a8c42d399debafc3a05f8f1c1d9f1f1f3b1a164ccd6e7e0",
+      "sourceURL": "https://unlimited.waifu2x.net/models/swin_unet/photo/noise1.onnx"
+    },
+    {
+      "path": "ONNXModels/swin_unet/photo/noise2.onnx",
+      "bytes": 21302686,
+      "sha256": "3c602715d014682d78542f0a2d5cb661932b2fce8c620c7746696cdffffc45d3",
+      "sourceURL": "https://unlimited.waifu2x.net/models/swin_unet/photo/noise2.onnx"
+    },
+    {
+      "path": "ONNXModels/swin_unet/photo/noise3.onnx",
+      "bytes": 21302686,
+      "sha256": "3a0892d3b2a068de25c502931afbecab0261f9685997f4a85d1cfe0b843548d4",
+      "sourceURL": "https://unlimited.waifu2x.net/models/swin_unet/photo/noise3.onnx"
+    },
+    {
+      "path": "ONNXModels/swin_unet/photo/scale2x.onnx",
+      "bytes": 21292630,
+      "sha256": "22a4880e452c22abde0ffbce1c125b0ddb7bdc4565f9745729a9037b273812ff",
+      "sourceURL": "https://unlimited.waifu2x.net/models/swin_unet/photo/scale2x.onnx"
+    },
+    {
+      "path": "ONNXModels/swin_unet/photo/noise0_scale2x.onnx",
+      "bytes": 21292630,
+      "sha256": "5612ca55805d28023fd527c1c5c5d96c1c837e9694ef12a2aa359e73039ca689",
+      "sourceURL": "https://unlimited.waifu2x.net/models/swin_unet/photo/noise0_scale2x.onnx"
+    },
+    {
+      "path": "ONNXModels/swin_unet/photo/noise1_scale2x.onnx",
+      "bytes": 21292630,
+      "sha256": "f8c818809730d47b5ffd41211071342f0f8985792c617188890cb46900644f95",
+      "sourceURL": "https://unlimited.waifu2x.net/models/swin_unet/photo/noise1_scale2x.onnx"
+    },
+    {
+      "path": "ONNXModels/swin_unet/photo/noise2_scale2x.onnx",
+      "bytes": 21292630,
+      "sha256": "c5e7b9933956d6095af5f7955fa3f239fb9d4878f73a66be1645da50661eefba",
+      "sourceURL": "https://unlimited.waifu2x.net/models/swin_unet/photo/noise2_scale2x.onnx"
+    },
+    {
+      "path": "ONNXModels/swin_unet/photo/noise3_scale2x.onnx",
+      "bytes": 21292630,
+      "sha256": "4e2d891c63ad22d654aca5030b05cb4e2429398f096ab527833c3a6e5adb32e4",
+      "sourceURL": "https://unlimited.waifu2x.net/models/swin_unet/photo/noise3_scale2x.onnx"
+    },
+    {
+      "path": "ONNXModels/swin_unet/photo/scale4x.onnx",
+      "bytes": 21253884,
+      "sha256": "1fba74fffd33c014e3bbace651c400d8af73c619c16ddc81d1965919f1b916a7",
+      "sourceURL": "https://unlimited.waifu2x.net/models/swin_unet/photo/scale4x.onnx"
+    },
+    {
+      "path": "ONNXModels/swin_unet/photo/noise0_scale4x.onnx",
+      "bytes": 21253884,
+      "sha256": "a0b42f87f14831351dbd16cc187b14cd6f9a6448a9df7f4fb34eba656b1cc6b8",
+      "sourceURL": "https://unlimited.waifu2x.net/models/swin_unet/photo/noise0_scale4x.onnx"
+    },
+    {
+      "path": "ONNXModels/swin_unet/photo/noise1_scale4x.onnx",
+      "bytes": 21253884,
+      "sha256": "5d1149a2c7928f0dd7cac9b00a42e0740c5a083da55335156242a26a9231e6db",
+      "sourceURL": "https://unlimited.waifu2x.net/models/swin_unet/photo/noise1_scale4x.onnx"
+    },
+    {
+      "path": "ONNXModels/swin_unet/photo/noise2_scale4x.onnx",
+      "bytes": 21253884,
+      "sha256": "40d09d32385ca3c8ed486b0e74bab5b2d7c3eaf7e1772404695731140d6d2672",
+      "sourceURL": "https://unlimited.waifu2x.net/models/swin_unet/photo/noise2_scale4x.onnx"
+    },
+    {
+      "path": "ONNXModels/swin_unet/photo/noise3_scale4x.onnx",
+      "bytes": 21253884,
+      "sha256": "7163317aaee06d281e9af4d0b234cf16c05a53915d77113b887a42c23cf9d7df",
+      "sourceURL": "https://unlimited.waifu2x.net/models/swin_unet/photo/noise3_scale4x.onnx"
+    },
+    {
+      "path": "ONNXModels/cunet/art/scale1x.onnx",
+      "bytes": 2625,
+      "sha256": "04262d6240dd0b0f84d9c70ec2381bb0803b8df0b30d629ca388d3de2dcc2b66",
+      "sourceURL": "https://unlimited.waifu2x.net/models/cunet/art/scale1x.onnx"
+    },
+    {
+      "path": "ONNXModels/cunet/art/noise0.onnx",
+      "bytes": 5296619,
+      "sha256": "4db46bdd23367250ff6c53af542f29139b3b13a582197b8e56bfd0809468fed2",
+      "sourceURL": "https://unlimited.waifu2x.net/models/cunet/art/noise0.onnx"
+    },
+    {
+      "path": "ONNXModels/cunet/art/noise1.onnx",
+      "bytes": 5296619,
+      "sha256": "0449d38fc0e1e8aefa4d5cf37094f8439fbebd895b9b958e41c53f32ffa7c530",
+      "sourceURL": "https://unlimited.waifu2x.net/models/cunet/art/noise1.onnx"
+    },
+    {
+      "path": "ONNXModels/cunet/art/noise2.onnx",
+      "bytes": 5296619,
+      "sha256": "970157f498601c8ded314ccdfe740b0df688809f49d2dd7bcdf2453748c391d9",
+      "sourceURL": "https://unlimited.waifu2x.net/models/cunet/art/noise2.onnx"
+    },
+    {
+      "path": "ONNXModels/cunet/art/noise3.onnx",
+      "bytes": 5296619,
+      "sha256": "c27bf12fb6f86df0caf754c85de692da2ed2a79b68ff170b49e086bbdeda8846",
+      "sourceURL": "https://unlimited.waifu2x.net/models/cunet/art/noise3.onnx"
+    },
+    {
+      "path": "ONNXModels/cunet/art/scale2x.onnx",
+      "bytes": 5299512,
+      "sha256": "aa8792b69af24216a059822cae860018dbf3b390473e313460465bec04a03f12",
+      "sourceURL": "https://unlimited.waifu2x.net/models/cunet/art/scale2x.onnx"
+    },
+    {
+      "path": "ONNXModels/cunet/art/noise0_scale2x.onnx",
+      "bytes": 5299512,
+      "sha256": "3ac056be3624711822d9151b773ca2be42582070e5f63e456c795fc6e443a58f",
+      "sourceURL": "https://unlimited.waifu2x.net/models/cunet/art/noise0_scale2x.onnx"
+    },
+    {
+      "path": "ONNXModels/cunet/art/noise1_scale2x.onnx",
+      "bytes": 5299512,
+      "sha256": "2511478e5c1b71d9381c1d9686b52085b6c624837185da77242d43bdf3ac88b8",
+      "sourceURL": "https://unlimited.waifu2x.net/models/cunet/art/noise1_scale2x.onnx"
+    },
+    {
+      "path": "ONNXModels/cunet/art/noise2_scale2x.onnx",
+      "bytes": 5299512,
+      "sha256": "b2e853c10201dd707ebcc4b7aa078523f3ffb7a3b736bd14d8f2cf3fa3eb3909",
+      "sourceURL": "https://unlimited.waifu2x.net/models/cunet/art/noise2_scale2x.onnx"
+    },
+    {
+      "path": "ONNXModels/cunet/art/noise3_scale2x.onnx",
+      "bytes": 5299512,
+      "sha256": "0c6b38f6ef5d7ba1278241576ea80e3f717683cf5da57fbac1f3f09b9b6cd1cf",
+      "sourceURL": "https://unlimited.waifu2x.net/models/cunet/art/noise3_scale2x.onnx"
+    },
+    {
+      "path": "ONNXModels/utils/replication_pad.onnx",
+      "bytes": 3321,
+      "sha256": "bed560439230a0aa5ee934148ef98178dff73eddbe332b4aed51c787dad81bce",
+      "sourceURL": "https://unlimited.waifu2x.net/models/utils/replication_pad.onnx"
+    },
+    {
+      "path": "ONNXModels/utils/reflection_pad.onnx",
+      "bytes": 55455,
+      "sha256": "d90b42a6bede3db5b9f1f26c94c272cb00f9285dbd2b260786d011ed60865eed",
+      "sourceURL": "https://unlimited.waifu2x.net/models/utils/reflection_pad.onnx"
+    },
+    {
+      "path": "ONNXModels/utils/tta_split.onnx",
+      "bytes": 3225,
+      "sha256": "9fc2e018ba6e2a4f7f4def10ec7154b226013ea3d334db736642de4b602360a9",
+      "sourceURL": "https://unlimited.waifu2x.net/models/utils/tta_split.onnx"
+    },
+    {
+      "path": "ONNXModels/utils/tta_merge.onnx",
+      "bytes": 5720,
+      "sha256": "f1e11ed25e02c9f9f57f76cbea7cf6bbc1677e3153961776683ab23e07b22dc1",
+      "sourceURL": "https://unlimited.waifu2x.net/models/utils/tta_merge.onnx"
+    },
+    {
+      "path": "ONNXModels/utils/alpha_border_padding.onnx",
+      "bytes": 10958,
+      "sha256": "7fa7647b5ff9b351aaf5def7578d362e48bae4eee9693829f4daff0eade7afbd",
+      "sourceURL": "https://unlimited.waifu2x.net/models/utils/alpha_border_padding.onnx"
+    },
+    {
+      "path": "ONNXModels/utils/create_seam_blending_filter.onnx",
+      "bytes": 26531,
+      "sha256": "b117369ed9502a7aec9687ee9c3a3c952f05717e97375144e8b049934bbde1a0",
+      "sourceURL": "https://unlimited.waifu2x.net/models/utils/create_seam_blending_filter.onnx"
+    },
+    {
+      "path": "Engine/models-cunet/noise0_model.bin",
+      "bytes": 2767568,
+      "sha256": "b15c356a36bcbf6fb8c2f1404ca016fd917d4e45426bcf41f7a3867022fdd7b0",
+      "sourceURL": "https://raw.githubusercontent.com/nihui/waifu2x-ncnn-vulkan/a86cfb043e6482b5f08778a114df9b5faf6e73b7/models/models-cunet/noise0_model.bin"
+    },
+    {
+      "path": "Engine/models-cunet/noise0_model.param",
+      "bytes": 7231,
+      "sha256": "4513ef004281bd50cdbed325df500df9aec154e8495190f578f09414c75f10f9",
+      "sourceURL": "https://raw.githubusercontent.com/nihui/waifu2x-ncnn-vulkan/a86cfb043e6482b5f08778a114df9b5faf6e73b7/models/models-cunet/noise0_model.param"
+    },
+    {
+      "path": "Engine/models-cunet/noise0_scale2.0x_model.bin",
+      "bytes": 2776400,
+      "sha256": "5329a9375c9cfb64a60a2903fd8ae6e2851d9b069556bf025dbab9d0216fb27c",
+      "sourceURL": "https://raw.githubusercontent.com/nihui/waifu2x-ncnn-vulkan/a86cfb043e6482b5f08778a114df9b5faf6e73b7/models/models-cunet/noise0_scale2.0x_model.bin"
+    },
+    {
+      "path": "Engine/models-cunet/noise0_scale2.0x_model.param",
+      "bytes": 7249,
+      "sha256": "ccc3b2f1c9fad829ecdda40cac8dc853fcddf14917170efba888b256fbf9074a",
+      "sourceURL": "https://raw.githubusercontent.com/nihui/waifu2x-ncnn-vulkan/a86cfb043e6482b5f08778a114df9b5faf6e73b7/models/models-cunet/noise0_scale2.0x_model.param"
+    },
+    {
+      "path": "Engine/models-cunet/noise1_model.bin",
+      "bytes": 2767568,
+      "sha256": "3407cb87c2503cbd69f8a6703b31bc4949a72080a3e1b1e536dba8bdbfad934f",
+      "sourceURL": "https://raw.githubusercontent.com/nihui/waifu2x-ncnn-vulkan/a86cfb043e6482b5f08778a114df9b5faf6e73b7/models/models-cunet/noise1_model.bin"
+    },
+    {
+      "path": "Engine/models-cunet/noise1_model.param",
+      "bytes": 7231,
+      "sha256": "4513ef004281bd50cdbed325df500df9aec154e8495190f578f09414c75f10f9",
+      "sourceURL": "https://raw.githubusercontent.com/nihui/waifu2x-ncnn-vulkan/a86cfb043e6482b5f08778a114df9b5faf6e73b7/models/models-cunet/noise1_model.param"
+    },
+    {
+      "path": "Engine/models-cunet/noise1_scale2.0x_model.bin",
+      "bytes": 2776400,
+      "sha256": "862c0e40f3df956ff57bd4d168c85dea5d375b614077fdddd3ac8cfdb9a686da",
+      "sourceURL": "https://raw.githubusercontent.com/nihui/waifu2x-ncnn-vulkan/a86cfb043e6482b5f08778a114df9b5faf6e73b7/models/models-cunet/noise1_scale2.0x_model.bin"
+    },
+    {
+      "path": "Engine/models-cunet/noise1_scale2.0x_model.param",
+      "bytes": 7249,
+      "sha256": "ccc3b2f1c9fad829ecdda40cac8dc853fcddf14917170efba888b256fbf9074a",
+      "sourceURL": "https://raw.githubusercontent.com/nihui/waifu2x-ncnn-vulkan/a86cfb043e6482b5f08778a114df9b5faf6e73b7/models/models-cunet/noise1_scale2.0x_model.param"
+    },
+    {
+      "path": "Engine/models-cunet/noise2_model.bin",
+      "bytes": 2767568,
+      "sha256": "b45d5febeb56166b7aff055cb0fbb87647dae528968f97d838dfd7ce0b7117f4",
+      "sourceURL": "https://raw.githubusercontent.com/nihui/waifu2x-ncnn-vulkan/a86cfb043e6482b5f08778a114df9b5faf6e73b7/models/models-cunet/noise2_model.bin"
+    },
+    {
+      "path": "Engine/models-cunet/noise2_model.param",
+      "bytes": 7231,
+      "sha256": "4513ef004281bd50cdbed325df500df9aec154e8495190f578f09414c75f10f9",
+      "sourceURL": "https://raw.githubusercontent.com/nihui/waifu2x-ncnn-vulkan/a86cfb043e6482b5f08778a114df9b5faf6e73b7/models/models-cunet/noise2_model.param"
+    },
+    {
+      "path": "Engine/models-cunet/noise2_scale2.0x_model.bin",
+      "bytes": 2776400,
+      "sha256": "5c836e6ae022636cdd5590fbb66dbca2a5fc20bbf8e628884c3612ef72d51858",
+      "sourceURL": "https://raw.githubusercontent.com/nihui/waifu2x-ncnn-vulkan/a86cfb043e6482b5f08778a114df9b5faf6e73b7/models/models-cunet/noise2_scale2.0x_model.bin"
+    },
+    {
+      "path": "Engine/models-cunet/noise2_scale2.0x_model.param",
+      "bytes": 7249,
+      "sha256": "ccc3b2f1c9fad829ecdda40cac8dc853fcddf14917170efba888b256fbf9074a",
+      "sourceURL": "https://raw.githubusercontent.com/nihui/waifu2x-ncnn-vulkan/a86cfb043e6482b5f08778a114df9b5faf6e73b7/models/models-cunet/noise2_scale2.0x_model.param"
+    },
+    {
+      "path": "Engine/models-cunet/noise3_model.bin",
+      "bytes": 2767568,
+      "sha256": "cd3d2440673d28d7a20aa6428a2a79e1c5e733f21de0a66785958f98d6994926",
+      "sourceURL": "https://raw.githubusercontent.com/nihui/waifu2x-ncnn-vulkan/a86cfb043e6482b5f08778a114df9b5faf6e73b7/models/models-cunet/noise3_model.bin"
+    },
+    {
+      "path": "Engine/models-cunet/noise3_model.param",
+      "bytes": 7231,
+      "sha256": "4513ef004281bd50cdbed325df500df9aec154e8495190f578f09414c75f10f9",
+      "sourceURL": "https://raw.githubusercontent.com/nihui/waifu2x-ncnn-vulkan/a86cfb043e6482b5f08778a114df9b5faf6e73b7/models/models-cunet/noise3_model.param"
+    },
+    {
+      "path": "Engine/models-cunet/noise3_scale2.0x_model.bin",
+      "bytes": 2776400,
+      "sha256": "f42c18610fecb14a40f75cca9b9276a6889689d5937a4f75f0c2b21bde7e49ed",
+      "sourceURL": "https://raw.githubusercontent.com/nihui/waifu2x-ncnn-vulkan/a86cfb043e6482b5f08778a114df9b5faf6e73b7/models/models-cunet/noise3_scale2.0x_model.bin"
+    },
+    {
+      "path": "Engine/models-cunet/noise3_scale2.0x_model.param",
+      "bytes": 7249,
+      "sha256": "ccc3b2f1c9fad829ecdda40cac8dc853fcddf14917170efba888b256fbf9074a",
+      "sourceURL": "https://raw.githubusercontent.com/nihui/waifu2x-ncnn-vulkan/a86cfb043e6482b5f08778a114df9b5faf6e73b7/models/models-cunet/noise3_scale2.0x_model.param"
+    },
+    {
+      "path": "Engine/models-cunet/scale2.0x_model.bin",
+      "bytes": 2776400,
+      "sha256": "d82ed30207fd07e1c16726a9ca838ce44e6e25a105b0278c7ca681516ee0e18e",
+      "sourceURL": "https://raw.githubusercontent.com/nihui/waifu2x-ncnn-vulkan/a86cfb043e6482b5f08778a114df9b5faf6e73b7/models/models-cunet/scale2.0x_model.bin"
+    },
+    {
+      "path": "Engine/models-cunet/scale2.0x_model.param",
+      "bytes": 7249,
+      "sha256": "ccc3b2f1c9fad829ecdda40cac8dc853fcddf14917170efba888b256fbf9074a",
+      "sourceURL": "https://raw.githubusercontent.com/nihui/waifu2x-ncnn-vulkan/a86cfb043e6482b5f08778a114df9b5faf6e73b7/models/models-cunet/scale2.0x_model.param"
+    },
+    {
+      "path": "Engine/models-upconv_7_photo/noise0_scale2.0x_model.bin",
+      "bytes": 1106248,
+      "sha256": "fbfc8d57e4333748c9c6db2ec4d5454c98cd1c6aa53289f2989c3bdb4e84b673",
+      "sourceURL": "https://raw.githubusercontent.com/nihui/waifu2x-ncnn-vulkan/a86cfb043e6482b5f08778a114df9b5faf6e73b7/models/models-upconv_7_photo/noise0_scale2.0x_model.bin"
+    },
+    {
+      "path": "Engine/models-upconv_7_photo/noise0_scale2.0x_model.param",
+      "bytes": 1047,
+      "sha256": "413195ffde05b4d43807792c6c020c916cecdf25dcf002ee83f5e28d5cc246c6",
+      "sourceURL": "https://raw.githubusercontent.com/nihui/waifu2x-ncnn-vulkan/a86cfb043e6482b5f08778a114df9b5faf6e73b7/models/models-upconv_7_photo/noise0_scale2.0x_model.param"
+    },
+    {
+      "path": "Engine/models-upconv_7_photo/noise1_scale2.0x_model.bin",
+      "bytes": 1106248,
+      "sha256": "9f8ce2c4df1ed862a7441e3b49ad965b8e34aaa6d87c1cad52a1768210fdfee6",
+      "sourceURL": "https://raw.githubusercontent.com/nihui/waifu2x-ncnn-vulkan/a86cfb043e6482b5f08778a114df9b5faf6e73b7/models/models-upconv_7_photo/noise1_scale2.0x_model.bin"
+    },
+    {
+      "path": "Engine/models-upconv_7_photo/noise1_scale2.0x_model.param",
+      "bytes": 1047,
+      "sha256": "413195ffde05b4d43807792c6c020c916cecdf25dcf002ee83f5e28d5cc246c6",
+      "sourceURL": "https://raw.githubusercontent.com/nihui/waifu2x-ncnn-vulkan/a86cfb043e6482b5f08778a114df9b5faf6e73b7/models/models-upconv_7_photo/noise1_scale2.0x_model.param"
+    },
+    {
+      "path": "Engine/models-upconv_7_photo/noise2_scale2.0x_model.bin",
+      "bytes": 1106248,
+      "sha256": "432ca8f62ffc4873794a399ded70b17af23aa870b25e5ddba76f029b7ce14c2b",
+      "sourceURL": "https://raw.githubusercontent.com/nihui/waifu2x-ncnn-vulkan/a86cfb043e6482b5f08778a114df9b5faf6e73b7/models/models-upconv_7_photo/noise2_scale2.0x_model.bin"
+    },
+    {
+      "path": "Engine/models-upconv_7_photo/noise2_scale2.0x_model.param",
+      "bytes": 1047,
+      "sha256": "413195ffde05b4d43807792c6c020c916cecdf25dcf002ee83f5e28d5cc246c6",
+      "sourceURL": "https://raw.githubusercontent.com/nihui/waifu2x-ncnn-vulkan/a86cfb043e6482b5f08778a114df9b5faf6e73b7/models/models-upconv_7_photo/noise2_scale2.0x_model.param"
+    },
+    {
+      "path": "Engine/models-upconv_7_photo/noise3_scale2.0x_model.bin",
+      "bytes": 1106248,
+      "sha256": "a24379eb4e954005da1804223f428e67340e3f0037e4f7b9f568f0d0f20e9f20",
+      "sourceURL": "https://raw.githubusercontent.com/nihui/waifu2x-ncnn-vulkan/a86cfb043e6482b5f08778a114df9b5faf6e73b7/models/models-upconv_7_photo/noise3_scale2.0x_model.bin"
+    },
+    {
+      "path": "Engine/models-upconv_7_photo/noise3_scale2.0x_model.param",
+      "bytes": 1047,
+      "sha256": "413195ffde05b4d43807792c6c020c916cecdf25dcf002ee83f5e28d5cc246c6",
+      "sourceURL": "https://raw.githubusercontent.com/nihui/waifu2x-ncnn-vulkan/a86cfb043e6482b5f08778a114df9b5faf6e73b7/models/models-upconv_7_photo/noise3_scale2.0x_model.param"
+    },
+    {
+      "path": "Engine/models-upconv_7_photo/scale2.0x_model.bin",
+      "bytes": 1106248,
+      "sha256": "25a2bb25b29e43e63179aac216cd87690791243a436328506d4ef9fca88ee962",
+      "sourceURL": "https://raw.githubusercontent.com/nihui/waifu2x-ncnn-vulkan/a86cfb043e6482b5f08778a114df9b5faf6e73b7/models/models-upconv_7_photo/scale2.0x_model.bin"
+    },
+    {
+      "path": "Engine/models-upconv_7_photo/scale2.0x_model.param",
+      "bytes": 1047,
+      "sha256": "413195ffde05b4d43807792c6c020c916cecdf25dcf002ee83f5e28d5cc246c6",
+      "sourceURL": "https://raw.githubusercontent.com/nihui/waifu2x-ncnn-vulkan/a86cfb043e6482b5f08778a114df9b5faf6e73b7/models/models-upconv_7_photo/scale2.0x_model.param"
+    }
+  ],
+  "repairManifestURL": "https://github.com/SteveTanSaMa/Waifu2x-Desktop-Models/releases/download/models-v1/Waifu2x-models-v1-repair.json"
+}
